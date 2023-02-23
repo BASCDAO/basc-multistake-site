@@ -76,13 +76,13 @@ function StakePoolHome(props: { stakePoolMetadataName: string | null }) {
                 ? 'Stake your ' +
                   props.stakePoolMetadataName.replace(' Staking', '') +
                   ' NFTs powered by Cardinal Staking'
-                : 'Stake your Solana NFTs powered by Cardinal Staking'
+                : 'Stake your Apes & Friends powered by Cardinal Staking'
             }
           />
-          <meta name="image" content="https://stake.cardinal.so/preview.png" />
+          <meta name="image" content="https://stake.bascdao.net/logos/basc_logo.png" />
           <meta
             name="og:image"
-            content="https://stake.cardinal.so/preview.png"
+            content="https://stake.bascdao.net/logos/basc_logo.png"
           />
           <link
             rel="icon"
@@ -90,7 +90,7 @@ function StakePoolHome(props: { stakePoolMetadataName: string | null }) {
           />
           <script
             defer
-            data-domain="stake.cardinal.so"
+            data-domain="stake.bascdao.net"
             src="https://plausible.io/js/plausible.js"
           ></script>
         </Head>
@@ -151,15 +151,15 @@ function StakePoolHome(props: { stakePoolMetadataName: string | null }) {
               ? 'Stake your ' +
                 props.stakePoolMetadataName.replace(' Staking', '') +
                 ' NFTs powered by Cardinal Staking'
-              : 'Stake your Solana NFTs powered by Cardinal Staking'
+              : 'Stake your Apes & Friends powered by Cardinal Staking'
           }
         />
-        <meta name="image" content="https://stake.cardinal.so/preview.png" />
-        <meta name="og:image" content="https://stake.cardinal.so/preview.png" />
+        <meta name="image" content="https://stake.bascdao.net/logos/basc_logo.png" />
+        <meta name="og:image" content="https://stake.bascdao.net/logos/basc_logo.png" />
         <link rel="icon" href={stakePoolMetadata?.imageUrl ?? `/favicon.ico`} />
         <script
           defer
-          data-domain="stake.cardinal.so"
+          data-domain="stake.bascdao.net"
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Head>
