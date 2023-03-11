@@ -276,15 +276,15 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     ],
   },
   {
-    name: 'Tesmophoria',
-    displayName: 'Tesmophoria',
+    name: 'AbductedDeApes',
+    displayName: 'Abducted DeApes',
     description:
-    'Secure your Tesmophoria in the Vault. Currently no rewards distributed.',
-    stakePoolAddress: '8wkcymHiJczyJSgL6n56jYvtwQrRfCZrJYi2P4neQyFU',
+    'Secure your Abducted DeApes in the Vault. Currently no rewards distributed.',
+    stakePoolAddress: '7Kh7QJhmXjt2zic2XcsqVQ4JYMqTSk69GaNTwQuLdLR6',
     websiteUrl: 'https://bascdao.net/',
     tokenStandard: TokenStandard.NonFungible,
     maxStaked: 5600,
-    imageUrl: '/logos/tesmophoria.png',
+    imageUrl: '/logos/abducteddeapes.png',
     styles: {
       fontFamily: 'Industry, sans-serif',
       fontWeight: 500,
@@ -300,7 +300,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     links: [
       {
         text: 'Buy',
-        value: 'https://magiceden.io/marketplace/tesmophoria',
+        value: 'https://magiceden.io/marketplace/abducteddeapes',
       },
     ],
   }, 
