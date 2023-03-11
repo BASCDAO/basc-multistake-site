@@ -7,7 +7,7 @@ import { useStakePoolsMetadatas } from 'hooks/useStakePoolsMetadata'
 import { useWalletId } from 'hooks/useWalletId'
 import { useRouter } from 'next/router'
 import { useEnvironmentCtx } from 'providers/EnvironmentProvider'
-/** 
+
 export const AdminPools = () => {
   const router = useRouter()
   const walletId = useWalletId()
@@ -99,7 +99,4 @@ export const AdminPools = () => {
       )}
     </div>
   )
-}
-*/
-export const AdminPools = () => {
 }

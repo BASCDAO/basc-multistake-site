@@ -43,7 +43,7 @@ function Admin() {
             <PlusIcon className="ml-2 h-5 w-5" />
           </ButtonPrimary>
         </div>
-        {/**<AdminPools />*/}
+        <AdminPools />
       </div>
       <FooterSlim />
     </div>
