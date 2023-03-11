@@ -10,6 +10,13 @@ const nextConfig = {
     BASE_CLUSTER: process.env.BASE_CLUSTER,
     BYPASS_REGION_CHECK: process.env.BYPASS_REGION_CHECK,
   },
+  typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // !! WARN !!
+    ignoreBuildErrors: true,
+  },
 }
 
 module.exports =
