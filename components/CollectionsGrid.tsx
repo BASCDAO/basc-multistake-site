@@ -27,9 +27,6 @@ export const CollectionsGrid = ({ configs }: { configs?: StakePool[] }) => {
   const { environment } = useEnvironmentCtx()
 
   const stakePools = useAllStakePools()
-
-  const openInNewTab = url => {
-    window.open(url, '_blank', 'noopener,noreferrer');
   return (
     <div className="grid grid-cols-1 flex-wrap gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {!configs ? (
@@ -65,8 +62,7 @@ export const CollectionsGrid = ({ configs }: { configs?: StakePool[] }) => {
                 }
               `}
               onClick={() =>
-                openInNewTab('https://stake.cardinal.so/' + config.stakePoolData.pubkey.toString())
-                /**router.push(
+                router.push(
                   config.stakePoolMetadata?.redirect ??
                     `/${
                       config.stakePoolMetadata?.name ||
@@ -77,7 +73,6 @@ export const CollectionsGrid = ({ configs }: { configs?: StakePool[] }) => {
                         : ''
                     }`
                 )
-              */
               }
               hero={
                 <div
